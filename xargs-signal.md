@@ -31,3 +31,7 @@ echo {1..8} | tr ' ' '\n' | xargs -P4 -I{} ./worker.sh {}
 ## With GNU parallel
 
 `parallel` handles this better — it has `--halt` and built-in signal forwarding. Worth it if you're doing complex fan-out jobs.
+
+## Note on -I{} and whitespace
+
+ replaces  literally in the command string. Arguments with spaces break it unless you quote carefully. Use  for safe whitespace handling.
