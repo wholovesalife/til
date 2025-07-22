@@ -30,3 +30,7 @@ switch (info) {
 ```
 
 `@typeInfo` returns a tagged union — pattern match on it to write generic code that branches on the actual type shape.
+
+## Exhaustive switch on @typeInfo
+
+Zig's switch on a tagged union is exhaustive at compile time. Add  to catch unhandled type classes rather than silently ignoring them.
