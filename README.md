@@ -11,3 +11,4 @@ loose, mostly one paragraph each. no particular order.
 - [unix: `xargs -P` does parallel in-place](unix/xargs-parallel.md)
 - [git: `--autosquash` reorders fixup commits automatically](git/autosquash.md)
 - [git: `git worktree add` lets you check out two branches simultaneously](git/worktree.md)
+- [shell: `jq -n` (null input) lets you construct JSON without reading stdin](jq/null-input.md)
