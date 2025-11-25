@@ -34,3 +34,9 @@ switch (info) {
 ## Exhaustive switch on @typeInfo
 
 Zig's switch on a tagged union is exhaustive at compile time. Add  to catch unhandled type classes rather than silently ignoring them.
+
+## Error unions
+
+ is an error union. Use  to propagate or  to handle inline:
+
+Unlike exceptions, error values are just integers — zero overhead.
