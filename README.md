@@ -12,3 +12,4 @@ loose, mostly one paragraph each. no particular order.
 - [git: `--autosquash` reorders fixup commits automatically](git/autosquash.md)
 - [git: `git worktree add` lets you check out two branches simultaneously](git/worktree.md)
 - [shell: `jq -n` (null input) lets you construct JSON without reading stdin](jq/null-input.md)
+- [bash: process substitution `<(cmd)` passes command output as a filename](bash/proc-sub.md)
