@@ -14,3 +14,4 @@ loose, mostly one paragraph each. no particular order.
 - [shell: `jq -n` (null input) lets you construct JSON without reading stdin](jq/null-input.md)
 - [bash: process substitution `<(cmd)` passes command output as a filename](bash/proc-sub.md)
 - [unix: `kill -0 <pid>` checks if a process exists without sending a real signal](unix/kill-zero.md)
+- [bash: `set -euo pipefail` catches unset vars, failed pipes, and unexpected exits](bash/set-euo.md)
