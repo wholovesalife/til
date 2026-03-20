@@ -40,3 +40,8 @@ Zig's switch on a tagged union is exhaustive at compile time. Add  to catch unha
  is an error union. Use  to propagate or  to handle inline:
 
 Unlike exceptions, error values are just integers — zero overhead.
+
+## Packed structs for bit-level layout
+
+`packed struct` guarantees C-compatible bit layout. Useful for parsing binary protocols without bitshift arithmetic:
+
