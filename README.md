@@ -16,6 +16,7 @@ loose, mostly one paragraph each. no particular order.
 - [unix: `kill -0 <pid>` checks if a process exists without sending a real signal](unix/kill-zero.md)
 - [bash: `set -euo pipefail` catches unset vars, failed pipes, and unexpected exits](bash/set-euo.md)
 - [lua: `__index` metamethod enables prototype-style inheritance without copying methods](lua/metamethods.md)
+- [rust: `rustls`'s `prefer-post-quantum` feature is a no-op against the `ring` provider](rust/rustls-prefer-post-quantum-provider.md)
 
 ## closed proposals
 
